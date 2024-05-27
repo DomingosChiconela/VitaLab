@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'vitalab.wsgi.application'
 DATABASES = {
    'default': {
         'ENGINE':'django.db.backends.postgresql',
-        'NAME':'laboratorio_psw8',
-        'USER':'postgres',
-        'PASSWORD':'1026',
-        'HOST':'localhost'
+        'NAME':'',
+        'USER':'',
+        'PASSWORD':'',
+        'HOST':''
     }
 }
 
