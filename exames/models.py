@@ -38,7 +38,8 @@ class SolicitacaoExame(models.Model):
  
  
 
-
+#TODO:rever o retorno do metodo 
+    
     def badge_template(self):
         if self.status == 'E':
             classes_css = 'bg-warning text-dark'
